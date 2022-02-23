@@ -1,10 +1,12 @@
 import ReactDOM from 'react-dom';
-import List from './state/List';
+//import UserSearch from './state/UserSearch'
+//import List from './state/List'
+import EventComponent from './events/EventComponent';
 
 const App = () => {
   return (
     <div>
-      <List />
+      <EventComponent />
     </div>
   );
 };
