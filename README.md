@@ -1,23 +1,18 @@
-# Signal-K Digital Garden
+# Quartz v4
 
-## CLI branch
-We'll be creating a CLI for writing documentation and integrating it with your code editor and visual/GUI tools (e.g. Unity), on THIS branch.
+> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
 
-🔗 Log onto our [notion](https://www.notion.so/skinetics/Signal-Kinetics-4c3a0eaa11914a5f84a59c01de860c57) or the [portal](https://docs.skinetics.tech) to view documentation & tasks
+Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
 
-<script src="https://giscus.app/client.js"
-        data-repo="signal-k/unity-demo"
-        data-repo-id="R_kgDOGGIbwA"
-        data-category-id="DIC_kwDOGGIbwM4CAz-P"
-        data-mapping="pathname"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-theme="light"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
+🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
 
-<!--Figure out how to link with notion, utterances, slack/kyber, discord/matrix/keybase, etc-->
+[Join the Discord Community](https://discord.gg/cRFFHYye7t)
 
-<!--Test https://github.com/Signal-K/marketplace/commit/25d243bb18b1c9e85ce0857003bcbea7e86a72c4>
+## Sponsors
+
+<p align="center">
+  <a href="https://github.com/sponsors/jackyzha0">
+    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
+  </a>
+</p>
