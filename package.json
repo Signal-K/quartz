@@ -1,15 +1,15 @@
 {
-  "name": "@jackyzha0/quartz",
+  "name": "@signal-k/docs",
   "description": "🌱 publish your digital garden and notes as a website",
   "private": true,
   "version": "4.2.2",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "Liam Arbuckle <liam@talonova.space",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "https://docs.starsailors.space",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/signal-k"
   },
   "scripts": {
     "docs": "npx quartz build --serve -d docs",
