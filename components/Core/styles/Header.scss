@@ -1,0 +1,34 @@
+/* header.scss */
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .logo {
+      font-size: 1.5rem;
+    }
+  
+    .menu {
+      display: flex;
+      align-items: center;
+  
+      .menu-item {
+        margin-right: 1rem;
+        cursor: pointer;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .menu {
+        display: none;
+      }
+  
+      .mobile-menu {
+        display: block;
+      }
+    }
+  }  

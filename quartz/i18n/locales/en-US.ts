@@ -18,7 +18,7 @@ export default {
       title: "Explorer",
     },
     footer: {
-      createdWith: "Created with",
+      createdWith: "Talonova,",
     },
     graph: {
       title: "Graph View",

@@ -37,6 +37,7 @@
     "@clack/prompts": "^0.7.0",
     "@floating-ui/dom": "^1.6.1",
     "@napi-rs/simple-git": "0.1.16",
+    "@supabase/supabase-js": "^2.39.3",
     "async-mutex": "^0.4.1",
     "chalk": "^5.3.0",
     "chokidar": "^3.5.3",
@@ -100,8 +101,11 @@
     "@types/source-map-support": "^0.5.10",
     "@types/ws": "^8.5.10",
     "@types/yargs": "^17.0.32",
+    "autoprefixer": "^10.4.17",
     "esbuild": "^0.19.9",
+    "postcss": "^8.4.35",
     "prettier": "^3.2.4",
+    "tailwindcss": "^3.4.1",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   }

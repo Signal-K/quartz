@@ -1,6 +1,9 @@
 @use "./variables.scss" as *;
 @use "./syntax.scss";
 @use "./callouts.scss";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 html {
   scroll-behavior: smooth;

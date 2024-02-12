@@ -4,28 +4,36 @@ ul.section-ul {
   list-style: none;
   margin-top: 2em;
   padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
 }
 
 li.section-li {
   margin-bottom: 1em;
+  border: 1px solid #757584;
+  border-radius: 1px;
+
+  // &:hover {
+  //   box-shadow: $boxShadow;
+  // }
 
   & > .section {
-    display: grid;
-    grid-template-columns: 6em 3fr 1fr;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    height: 100%;
 
-    @media all and (max-width: $mobileBreakpoint) {
-      & > .tags {
-        display: none;
+    & > .desc {
+      margin-bottom: 1em;
+
+      & > h3 > a {
+        background-color: transparent;
       }
-    }
-
-    & > .desc > h3 > a {
-      background-color: transparent;
     }
 
     & > .meta {
       margin: 0;
-      flex-basis: 6em;
       opacity: 0.6;
     }
   }
